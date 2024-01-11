@@ -4,31 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <title>AI Poem Generator</title>
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to the AI poem generator</h1>
-    </header>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the topic of the poem" autocomplete="off" autofocus required />
-            <input type="submit" />
-        </form>
-        <div>
-            Upon the sea's vast, endless spree,
-            Whispers tales from distant spree.
-            Mysteries and wonders, ever to see,
-            In its embrace, hearts roam free.
-        </div>
-    </main>
+    <div class="container">
+        <header>
+            <h1>Welcome to the AI poem generator</h1>
+        </header>
+        <main>
+            <div class="form-container">
+                <form>
+                    <input type="text" placeholder="Enter the topic of the poem" autocomplete="off" autofocus required
+                        class="instructions" />
+                    <input type="submit" class="submit-button" />
+                </form>
+                <div class="suggestion">i.e: Porto, Sea or Cheese</div>
+            </div>
+            <div>
+                Upon the sea's vast, endless spree,
+                Whispers tales from distant spree.
+                Mysteries and wonders, ever to see,
+                In its embrace, hearts roam free.
+            </div>
+        </main>
 
 
-    <footer>This AI project was coded by <a href="https://github.com/mhserrano" target="_blank">Maria Serrano</a> and is
-        <a href="https://github.com/mhserrano/ai-generator" target="_blank">open-sourced</a>
-    </footer>
+        <footer>This AI project was coded by <a href="https://github.com/mhserrano" target="_blank">Maria Serrano</a>
+            and is
+            <a href="https://github.com/mhserrano/ai-generator" target="_blank">open-sourced</a>
+        </footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 
