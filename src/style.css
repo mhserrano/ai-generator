@@ -74,7 +74,7 @@ form {
 
 .poem {
   background-color: white;
-  margin: 5px;
+  margin-top: 10px;
   padding: 20px;
   border: 2px solid var(--main-branding-color);
   border-left: 10px solid var(--main-branding-color);
